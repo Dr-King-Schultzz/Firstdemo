@@ -31,5 +31,7 @@ public class BaseClass {
 		driver.get(pu.readProperty("url"));
 		driver.manage().timeouts().pageLoadTimeout(Integer.parseInt(pu.readProperty("pageload")), TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(Integer.parseInt(pu.readProperty("pageload")), TimeUnit.SECONDS);
+		//hi 
+		//hi
 	}
 }
