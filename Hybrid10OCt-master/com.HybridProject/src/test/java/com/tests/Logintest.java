@@ -10,5 +10,8 @@ public class Logintest extends BaseClass{
 	public void test() {
 		pu.readProperty("browser");
 	}
+	public void test2() {
+		pu.readProperty("browser");
+	}
 	
 }
